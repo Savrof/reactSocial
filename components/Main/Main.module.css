@@ -1,0 +1,9 @@
+
+.main {
+    background-color: blue;
+    grid-area: m;
+}
+
+.img {
+    width: 1000px;
+}

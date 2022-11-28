@@ -1,0 +1,8 @@
+.header {
+    background-color: rgba(34, 34, 34, 0.9);
+    grid-area: h;
+}
+
+.headline {
+   margin: 0 auto;
+}

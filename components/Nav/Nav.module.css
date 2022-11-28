@@ -1,0 +1,22 @@
+.nav {
+    background-color: rgb(20, 20, 20);
+    grid-area: n;
+    background-color: aqua;
+    margin-top: 20px;
+    height: 100vh;
+}
+
+nav a {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+/* .nav a:active {
+    font-weight: bold;
+} */
+
+
+
+ /* nav a:visited {
+    color: gray;
+}  */
