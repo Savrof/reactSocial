@@ -1,0 +1,7 @@
+
+.newsBlock {
+display: grid;
+grid-template-areas: m;
+background-color: aqua;
+color: #355234;
+}

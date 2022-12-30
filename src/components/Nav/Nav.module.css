@@ -1,0 +1,31 @@
+.nav {
+    background-color: rgb(20, 20, 20);
+    grid-area: n;
+    background-color: aqua;
+    margin-top: 20px;
+    height: 100vh;
+}
+
+/* //TODO: сделать менюшку растянутой по вертикали */
+nav {
+    display: grid;
+    font-size: 40px;
+}
+
+
+.nav a {
+    text-decoration: none;
+    list-style-type: none;
+   
+}
+
+
+/* .nav a:active {
+    font-weight: bold;
+} */
+
+
+
+ /* nav a:visited {
+    color: gray;
+}  */

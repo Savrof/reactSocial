@@ -1,0 +1,7 @@
+.user {
+    font-weight: 500;
+    font-size: 30px;
+}
+.user .active {
+   color: gold;
+}
