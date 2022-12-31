@@ -6,7 +6,7 @@ let Dialog = (props) => {
 
     let path = "/dialog/" + props.id;
 
-    let dataMap = props.dialogData;
+    let dataMap = props.messagesPage;
 
     let dialogsMap = dataMap?.map((element, index) => {
         return (

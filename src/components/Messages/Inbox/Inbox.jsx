@@ -5,7 +5,7 @@ import React from 'react';
 
 let Inbox = (props) => {
 
-let data = props.inboxData;
+let data = props.messagesPage;
 
 let messagesMap = data?.map((message, key) => {
     return(

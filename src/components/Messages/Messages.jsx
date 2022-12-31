@@ -8,19 +8,20 @@ import s from "./Messages.module.css";
 
 function Messages(props) {
 
+console.log('mess', props.messagesPage[0].dialogData)
     return (
 
         <div className={s.messages}>
             <div className={s.contacts}>
                 <h1>Dialogs</h1>
-                <Dialog dialogData={props.dialogData} />
+                <Dialog messagesPage={props.messagesPage[0].dialogData} />
                 
 
 
             </div>
 
             <div className={s.right}>
-               <Inbox inboxData={props.inboxData} />
+               <Inbox messagesPage={props.messagesPage[0].inboxData} />
             </div>
         </div>
     );

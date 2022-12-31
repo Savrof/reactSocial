@@ -15,8 +15,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 
 function App(props) {
-
-    console.log("props:", props.state)
+console.log(props.state.messagesPage)
     return (
         <BrowserRouter>
             <div className="gridWrapper">
@@ -26,8 +25,8 @@ function App(props) {
                     <Route path="/settings" element={ <Settings /> } />
                     <Route path="/main" element={<Main postData={props.state.postData} /> } />
                     <Route path="/messages/" element={ <Messages 
-                    dialogData={props.state.dialogData}
-                    inboxData={props.state.inboxData}
+                    messagesPage={props.state.messagesPage}
+                    // inboxData={props.state.inboxData}
                       /> } />
                     <Route path="/news" element={ <News headline="Head" />} />
                     <Route path="/music" element={ <Music yourMusic="Muse" />} />
